@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for ('static', filename= 'style.css') }}">
+</head>
+<body>
+    <table>
+        {% for  i in range (fir): %}
+        <tr>
+            {% for j in range (sec): %}
+            <td class="row"></td>
+            <td class="row"></td>
+            {% endfor %}
+        </tr>
+        <tr>
+            {% for j in range (sec): %}
+            <td class="row2"></td>
+            <td class="row2"></td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html> 
