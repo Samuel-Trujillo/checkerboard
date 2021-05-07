@@ -13,6 +13,6 @@ table tr td{
 .row:nth-child(odd) {background-color: lightseagreen;}
 
 .row2{
-    background-color: lightseagreen;
+    background-color:black;
 }
-.row2:nth-child(odd) {background-color: black;}
+.row2:nth-child(even) {background-color: lightseagreen;}
